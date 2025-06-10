@@ -1,0 +1,29 @@
+# 核心依赖
+fastapi==0.104.1
+uvicorn==0.24.0
+gradio==4.8.0
+
+# LLM相关 - 使用兼容版本
+langchain==0.0.335
+dashscope==1.17.0
+
+# 向量数据库 - 使用稳定版本
+chromadb==0.4.15
+sentence-transformers==2.2.2
+
+# 文档处理
+pypdf2==3.0.1
+python-multipart==0.0.6
+
+# 工具库
+numpy==1.24.3
+pandas==2.0.3
+python-dotenv==1.0.0
+pydantic==1.10.12  # 降级到稳定版本
+
+# 其他
+requests==2.31.0
+tqdm==4.66.1
+
+# 可选：如果遇到SSL问题
+urllib3==1.26.16
