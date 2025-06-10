@@ -211,4 +211,4 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 =======
 # scholar-ai
 论文阅读助手 - 基于RAG和大语言模型
->>>>>>> 17470e66a5ab1daf186843b4e2205d1871ffdec7
+
